@@ -1,0 +1,112 @@
+﻿function Test2()
+{ Browsers.Item(btEdge).Navigate("https://plc.halifax.ca/hfxprod/pub/lms/Default.aspx?PossePresentation=Default&PosseObjectId=5551218");
+  let browser = Aliases.browser;
+  browser.BrowserWindow.Maximize();
+  let page = browser.pageLmsOnlineApplyForAPermit;
+  let link = page.formAspnetform;
+  let link2 = link.linkSolarPermit;
+  link2.Click();
+  page.Wait();
+  link2.Click();
+  let vselect = page.formAspnetform2;
+  let vselect2 = vselect.selectUsedesignation980441556134;
+  vselect2.ClickItem("Institutional and Governmental");
+  vselect.selectPrimaryworkscope9804415561.ClickItem("Wall Mount - Glazed Flat Panel");
+  page.Wait();
+  let textNode = vselect.linkNext.textnodeNext;
+  textNode.Click();
+  page.Wait();
+  vselect2.ClickItem("Prince Edward Island");
+  let textbox = link.textboxApplicantcitystored102947;
+  textbox.Click();
+  textbox.Keys("![ReleaseLast]");
+  textbox.SetText("Charlottetown");
+  textNode.Click();
+  page.Wait();
+  link.radiobuttonSolarcityprogram14422.ClickButton();
+  link.selectSolarenergywillsupplement1.ClickItem("Space Heating");
+  link.selectExistingenergysupplement14.ClickItem("Wood");
+  let textNode2 = link.linkNext2.textnodeNext2;
+  textNode2.Click();
+  page.Wait();
+  textNode.Click();
+  page.Wait();
+  textNode2.Click();
+  page.Wait();
+  textNode2.Click();
+  page.Wait();
+  aqObject.CheckProperty(link.cell3, "contentText", cmpEqual, "Please add a parcel where the work will take place.");
+  aqObject.CheckProperty(link.cell4, "contentText", cmpEqual, "Please enter a name.");
+  aqObject.CheckProperty(link.cell2, "contentText", cmpEqual, "Please enter a mailing address.");
+  aqObject.CheckProperty(link.cell7, "contentText", cmpEqual, "Please enter a zip / postal code.");
+  aqObject.CheckProperty(link.cell8, "contentText", cmpEqual, "Please enter a phone number.");
+  aqObject.CheckProperty(link.cell9, "contentText", cmpEqual, "Please enter a description of the work.");
+  aqObject.CheckProperty(link.cell10, "contentText", cmpEqual, "Please select type of rack.");
+  aqObject.CheckProperty(link.cell15, "contentText", cmpEqual, "Please enter number of panels/tubes.");
+  aqObject.CheckProperty(link.cell11, "contentText", cmpEqual, "Please enter total area of all panels.");
+  aqObject.CheckProperty(link.cell16, "contentText", cmpEqual, "A document of type \"Plumbing Design - Solar\" (Plumbing Design ) is required.");
+  aqObject.CheckProperty(link.cell12, "contentText", cmpEqual, "A document of type \"System Design and Construction Plans - Solar\" (System Design and Construction Plans) is required.");
+}
+
+function Test1(username, password)
+{
+  Browsers.Item(btEdge).Navigate("https://plc.halifax.ca/hfxprod/pub/lms/Login.aspx");
+  let browser = Aliases.browser;
+  browser.BrowserWindow.Maximize();
+  let emailInput = browser.pageLmsOnlineLogin.formAspnetform;
+  let emailInput2 = emailInput.emailinputTxtemail;
+  emailInput2.SetText(username);
+  emailInput2.Keys("[Tab]");
+  let passwordBox = emailInput.passwordboxTxtpassword;
+  passwordBox.SetText(password);
+  passwordBox.Keys("[Enter]");
+  let page = browser.pageLmsOnlineApplyForAPermit;
+  page.Wait();
+  let link = page.formAspnetform;
+  let link2 = link.linkSolarPermit;
+  link2.Click();
+  page.Wait();
+  link2.Click();
+  let vselect = page.formAspnetform2;
+  let vselect2 = vselect.selectUsedesignation980441556134;
+  vselect2.ClickItem("Dwelling - Townhouse");
+  vselect.selectPrimaryworkscope9804415561.ClickItem("Roof Mount - Photovoltaic");
+  page.Wait();
+  let textNode = vselect.linkNext.textnodeNext;
+  textNode.Click();
+  page.Wait();
+  vselect2.ClickItem("Yukon");
+  let textbox = link.textboxApplicantcitystored102947;
+  textbox.Click();
+  textbox.Keys("![ReleaseLast]");
+  textbox.SetText("Whitehorse");
+  textNode.Click();
+  page.Wait();
+  link.selectSolarenergywillsupplement1.ClickItem("Space Heating");
+  let textNode2 = link.linkNext2.textnodeNext2;
+  textNode2.Click();
+  page.Wait();
+  textNode2.Click();
+  page.Wait();
+  textNode2.Click();
+  page.Wait();
+  textNode2.Click();
+  aqObject.CheckProperty(link.cell3, "contentText", cmpEqual, "Please add a parcel where the work will take place.");
+  aqObject.CheckProperty(link.cell4, "contentText", cmpEqual, "Please enter a name.");
+  aqObject.CheckProperty(link.cell2, "contentText", cmpEqual, "Please enter a mailing address.");
+  aqObject.CheckProperty(link.cell7, "contentText", cmpEqual, "Please enter a zip / postal code.");
+  aqObject.CheckProperty(link.cell8, "contentText", cmpEqual, "Please enter a phone number.");
+  aqObject.CheckProperty(link.cell9, "contentText", cmpEqual, "Please enter a description of the work.");
+  aqObject.CheckProperty(link.cell10, "contentText", cmpEqual, "Please select type of rack.");
+  aqObject.CheckProperty(link.cell15, "contentText", cmpEqual, "Please enter number of panels/tubes.");
+  aqObject.CheckProperty(link.cell11, "contentText", cmpEqual, "Please enter total area of all panels.");
+  aqObject.CheckProperty(link.cell16, "contentText", cmpEqual, "Please select a value for existing energy being supplemented.");
+  aqObject.CheckProperty(link.cell12, "contentText", cmpEqual, "Please indicate if this install is part of Solar City Program.");
+  aqObject.CheckProperty(link.cell13, "contentText", cmpEqual, "A document of type \"System Design and Construction Plans - Solar\" (System Design and Construction Plans) is required.");
+}
+
+function Main()
+{
+  Test1('lmsusername@gmail.com', 'SongTunes01');
+  Test2();
+}

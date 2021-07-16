@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{D03A9660-7251-49A8-B140-7B366EAF0EC7}">
+	<children>
+		<child name="HalifaxPortalTests" key="{3589543A-85AF-4BF6-BBA6-4324AFC2331A}" path="HalifaxPortalTests\HalifaxPortalTests.mds" />
+	</children>
+	<testItems key="{4153ABCC-F6E9-4470-82BA-AD62F7ED395F}">
+		<children>
+			<testItem key="{3589543A-85AF-4BF6-BBA6-4324AFC2331A}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{99BEA295-E77A-4A94-AE18-8883BDC1B6C3}" />
+	<analysis key="{E9C8E54F-3F29-491D-80E8-3E9960A57A2C}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

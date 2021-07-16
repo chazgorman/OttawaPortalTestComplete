@@ -1,0 +1,124 @@
+﻿function Test1()
+{
+  Browsers.Item(btEdge).Navigate("https://plc.halifax.ca/hfxprod/pub/lms/Login.aspx");
+  let browser = Aliases.browser;
+  browser.BrowserWindow.Maximize();
+  let emailInput = browser.pageLmsOnlineLogin.formAspnetform;
+  let emailInput2 = emailInput.emailinputTxtemail;
+  emailInput2.SetText("lmsusername@gmail.com");
+  emailInput2.Keys("[Tab]");
+  let passwordBox = emailInput.passwordboxTxtpassword;
+  passwordBox.Keys("![ReleaseLast]");
+  passwordBox.SetText(Project.Variables.Password1);
+  passwordBox.SetText(Project.Variables.Password2);
+  passwordBox.Keys("[Enter]");
+  let page = browser.pageDefault;
+  page.Wait();
+  let form = page.formAspnetform;
+  form.linkApplyForAPermit.Click();
+  page.Wait();
+  form.linkSolarPermit.Click();
+  let form2 = page.formAspnetform2;
+  form2.selectUsedesignation980441582488.ClickItem("Commercial");
+  form2.selectPrimaryworkscope9804415824.ClickItem("Ground Mount - Photovoltaic");
+  let textNode = form2.linkNext.textnodeNext;
+  page.Wait();
+  textNode.Click();
+  let textbox = form2.textboxApplicantnamestored102947;
+  textbox.Click();
+  textbox.Keys("![ReleaseLast]");
+  textbox.SetText("Erica");
+  textbox = form2.textboxApplicantcitystored102947;
+  textbox.Click();
+  textbox.Keys("![ReleaseLast]");
+  textbox.SetText("Toronto");
+  form2.selectApplicantstateprovstored10.ClickItem("Ontario");
+  textNode.Click();
+  form.radiobuttonRackingtype1442225582.ClickButton();
+  form.selectSolarenergywillsupplement1.ClickItem("Space Heating");
+  let vselect = form.selectExistingenergysupplement14;
+  vselect.ClickItem("Oil");
+  let textNode2 = form.linkNext2.textnodeNext2;
+  page.Wait();
+  textNode2.Click();
+  page.Wait();
+  textNode.Click();
+  page.Wait();
+  textNode2.Click();
+  page.Wait();
+  form.linkNext4.textnodeNext3.Click();
+  aqObject.CheckProperty(form.cell, "contentText", cmpEqual, "Please add a parcel where the work will take place.");
+  aqObject.CheckProperty(form.cell2, "contentText", cmpEqual, "Please enter a mailing address.");
+  aqObject.CheckProperty(form.cell3, "contentText", cmpEqual, "Please enter a zip / postal code.");
+  aqObject.CheckProperty(form.cell4, "contentText", cmpEqual, "Please enter a phone number.");
+  aqObject.CheckProperty(form.cell5, "contentText", cmpEqual, "Please enter a description of the work.");
+  aqObject.CheckProperty(form.cell6, "contentText", cmpEqual, "Please enter number of panels/tubes.");
+  aqObject.CheckProperty(form.cell7, "contentText", cmpEqual, "Please enter total area of all panels.");
+  aqObject.CheckProperty(form.cell8, "contentText", cmpEqual, "Please indicate if this install is part of Solar City Program.");
+  aqObject.CheckProperty(form.cell9, "contentText", cmpEqual, "A document of type \"Site Plan - Solar\" (Site Plan - Solar) is required.");
+}
+
+function Test2(username, password)
+{
+  Browsers.Item(btEdge).Navigate("https://plc.halifax.ca/hfxprod/pub/lms/Login.aspx");
+  let browser = Aliases.browser;
+  browser.BrowserWindow.Maximize();
+  let emailInput = browser.pageLmsOnlineLogin.formAspnetform;
+  let emailInput2 = emailInput.emailinputTxtemail;
+  emailInput2.SetText(username);
+  emailInput2.Keys("[Tab]");
+  let passwordBox = emailInput.passwordboxTxtpassword;
+  passwordBox.Keys("![ReleaseLast]");
+  passwordBox.SetText(password);
+  passwordBox.Keys("[Enter]");
+  let page = browser.pageDefault;
+  page.Wait();
+  let form = page.formAspnetform;
+  form.linkApplyForAPermit.Click();
+  page.Wait();
+  form.linkSolarPermit.Click();
+  let form2 = page.formAspnetform2;
+  form2.selectUsedesignation980441582488.ClickItem("Commercial");
+  form2.selectPrimaryworkscope9804415824.ClickItem("Ground Mount - Photovoltaic");
+  let textNode = form2.linkNext.textnodeNext;
+  page.Wait();
+  textNode.Click();
+  let textbox = form2.textboxApplicantnamestored102947;
+  textbox.Click();
+  textbox.Keys("![ReleaseLast]");
+  textbox.SetText("Erica");
+  textbox = form2.textboxApplicantcitystored102947;
+  textbox.Click();
+  textbox.Keys("![ReleaseLast]");
+  textbox.SetText("Toronto");
+  form2.selectApplicantstateprovstored10.ClickItem("Ontario");
+  textNode.Click();
+  form.radiobuttonRackingtype1442225582.ClickButton();
+  form.selectSolarenergywillsupplement1.ClickItem("Space Heating");
+  let vselect = form.selectExistingenergysupplement14;
+  vselect.ClickItem("Oil");
+  let textNode2 = form.linkNext2.textnodeNext2;
+  page.Wait();
+  textNode2.Click();
+  page.Wait();
+  textNode.Click();
+  page.Wait();
+  textNode2.Click();
+  page.Wait();
+  form.linkNext4.textnodeNext3.Click();
+  aqObject.CheckProperty(form.cell, "contentText", cmpEqual, "Please add a parcel where the work will take place.");
+  aqObject.CheckProperty(form.cell2, "contentText", cmpEqual, "Please enter a mailing address.");
+  aqObject.CheckProperty(form.cell3, "contentText", cmpEqual, "Please enter a zip / postal code.");
+  aqObject.CheckProperty(form.cell4, "contentText", cmpEqual, "Please enter a phone number.");
+  aqObject.CheckProperty(form.cell5, "contentText", cmpEqual, "Please enter a description of the work.");
+  aqObject.CheckProperty(form.cell6, "contentText", cmpEqual, "Please enter number of panels/tubes.");
+  aqObject.CheckProperty(form.cell7, "contentText", cmpEqual, "Please enter total area of all panels.");
+  aqObject.CheckProperty(form.cell8, "contentText", cmpEqual, "Please indicate if this install is part of Solar City Program.");
+  aqObject.CheckProperty(form.cell9, "contentText", cmpEqual, "A document of type \"Site Plan - Solar\" (Site Plan - Solar) is required.");
+}
+
+function Main()
+{
+  Test2('lmsusername@gmail.com', 'SongTunes01');
+  Test1();
+}

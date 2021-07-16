@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{BB3094C5-F4DE-4AF5-B120-BE34C5641411}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{6C8F0F6B-152B-4108-9A66-D7EB69F461DB}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{9546E742-E10D-44FD-8360-51792E698BFD}">
+								<Image FileName="1037257494" Left="0" Top="0" Right="1280" Bottom="680" />
+								<TypeInfo Item0="{283A53CA-7F5A-42D6-90F6-F0D3E09B93BA}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLmsOnlineLogin" Key="{6F2E16FE-A42F-474E-8900-16B6A96B253E}">
+								<Image FileName="-1092395501" Left="48" Top="71" Right="1440" Bottom="876" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://plc.halifax.ca/hfxprod/pub/lms/Login.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formAspnetform" Key="{974FB356-2593-4ADC-9A29-A449E530E33E}">
+										<Image FileName="-1092395501" Left="1026" Top="331" Right="1296" Bottom="667" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aspnetForm" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;//&lt;![CDATA[&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mainContainer&apos;]/div[2]/div/div/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputTxtemail" Key="{9E24A0E8-7013-4DA8-9C40-46C4257A91DC}">
+										<Image FileName="-1092395501" Left="1026" Top="419" Right="1281" Bottom="462" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_cphPaneBand_txtEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;ctl00$cphPaneBand$txtEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;ctl00_cphPaneBand_txtEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/div/div/div/span[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxTxtpassword" Key="{188AA17F-B2FB-460C-B924-32B5A5A719BB}">
+										<Image FileName="-1703702939" Left="1026" Top="541" Right="1281" Bottom="584" />
+										<TypeInfo Item0="{D42BE96E-8A92-469F-96D9-CA356255D786}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_cphPaneBand_txtPassword" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;ctl00$cphPaneBand$txtPassword&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="input[type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;ctl00_cphPaneBand_txtPassword&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/div/div/div[2]/span[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/span[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDefault" Key="{5528BB78-FD17-4499-84C0-C50B55834BD4}">
+								<TypeInfo Item0="{2A8E6521-A4AE-4B9A-B521-A758141C04BC}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://plc.halifax.ca/hfxprod/pub/lms/Default.aspx*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formAspnetform" Key="{A557038A-12C8-43F8-B846-7A029DCDE7CC}">
+										<Image FileName="-174503787" Left="48" Top="71" Right="1423" Bottom="969" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aspnetForm" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Welcome, LMS User&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;nicenonfooter&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkApplyForAPermit" Key="{21603B3F-17C7-4D6C-A1C0-FFDE5ECB1C97}">
+										<Image FileName="-174503787" Left="262" Top="493" Right="389" Bottom="508" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;Apply for a Permit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[title=&apos;Apply for a Permit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphTopBand_pnlHeaderBand&apos;]/table/tbody/tr[2]/td/span/table/tbody/tr/td/table/tbody/tr[4]/th/span/table/tbody/tr/td/div[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;Default.aspx&apos;)])[7]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSolarPermit" Key="{84275743-75CF-44CA-BF98-BF26F1AD1761}">
+										<Image FileName="-1584650459" Left="261" Top="692" Right="334" Bottom="707" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;Solar Permit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="tr:nth-child(4) &gt; td:nth-child(1) li:nth-child(1) &gt; .menupaneitem" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[4]/th/span/table/tbody/tr[4]/td/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;Default.aspx&apos;)])[7]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="a[href=&apos;Default.aspx?PossePresentation=NewPermit&amp;PosseAutoSubmit=Y&amp;PosseObjectDef=j_GeneralPermit&amp;PermitNameCode=SOLARPERMIT&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formAspnetform2" Key="{74F6A987-C589-44BA-9EBE-DB10D6EDBD9A}">
+										<Image FileName="522528909" Left="48" Top="71" Right="1423" Bottom="889" />
+										<Selectors>
+											<Selector>
+												<Value Value="#aspnetForm" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;//&lt;![CDATA[&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;aspnetForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;nicenonfooter&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectUsedesignation980441582488" Key="{7139DA74-BC4C-4BAB-8627-BD2021C3D460}">
+										<Image FileName="522528909" Left="574" Top="466" Right="1097" Bottom="485" />
+										<TypeInfo Item0="{90BE81D4-B264-4912-9FEE-D0BAF136EB71}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@onclick=&apos;flag_UseDesignation_980441_5824884 = true&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[12]/td[3]/span/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectPrimaryworkscope9804415824" Key="{6E73D7F9-D28F-4CED-AD70-BF8543A00513}">
+										<Image FileName="-1092855894" Left="574" Top="514" Right="1097" Bottom="533" />
+										<TypeInfo Item0="{90BE81D4-B264-4912-9FEE-D0BAF136EB71}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@onclick=&apos;flag_PrimaryWorkScope_980441_5824884 = true&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[16]/td[3]/span/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[16]/td[3]/span/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNext" Key="{DF4A6870-8D51-45D1-AB1B-F316D85396B0}">
+										<Image FileName="-1966545540" Left="256" Top="760" Right="317" Bottom="789" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_cphBottomFunctionBand_ctl05_Next" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Next&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;ctl00_cphBottomFunctionBand_ctl05_Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphBottomFunctionBand_pnlBottomFunctionBand&apos;]/table/tbody/tr/td[2]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[2]/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNext" Key="{1616B1C9-6BC6-4064-A5F6-C53B7CD95B9A}">
+										<Image FileName="-1966545540" Left="272" Top="766" Right="301" Bottom="783" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ctl00_cphBottomFunctionBand_ctl05_lblBtnLabel" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[text()=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@id=&apos;ctl00_cphBottomFunctionBand_ctl05_lblBtnLabel&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;ctl00_cphBottomFunctionBand_ctl05_Next&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[2]/div/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxApplicantnamestored102947" Key="{2389C16D-3A4F-421C-8362-05B3BC3307B7}">
+										<Image FileName="370241873" Left="399" Top="542" Right="756" Bottom="561" />
+										<TypeInfo Item0="{D42BE96E-8A92-469F-96D9-CA356255D786}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[6]/td[3]/span/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[3]/span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxApplicantcitystored102947" Key="{64B095EF-FC9D-493D-8157-CBDA36CBB261}">
+										<Image FileName="1312353530" Left="399" Top="590" Right="626" Bottom="609" />
+										<TypeInfo Item0="{D42BE96E-8A92-469F-96D9-CA356255D786}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//input[@type=&apos;text&apos;])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@value=&apos;&apos;])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[10]/td[3]/span/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[10]/td[3]/span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectApplicantstateprovstored10" Key="{B280201C-B734-4DB1-9692-64CB738987E5}">
+										<Image FileName="700472613" Left="399" Top="614" Right="631" Bottom="633" />
+										<TypeInfo Item0="{90BE81D4-B264-4912-9FEE-D0BAF136EB71}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[12]/td[3]/span/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonRackingtype1442225582" Key="{37DCADAF-9584-4B41-8EB5-E3779AAB26B0}">
+										<Image FileName="1298508981" Left="689" Top="398" Right="702" Bottom="411" />
+										<TypeInfo Item0="{5E729BE6-6049-43F1-8803-F20BC01BFE94}" />
+										<Selectors>
+											<Selector>
+												<Value Value="input[type=&apos;radio&apos;][value=&apos;Tracking&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;Tracking&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//input[@type=&apos;radio&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Tracking&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[4]/td[2]/span/table/tbody/tr/td/table/tbody/tr[4]/td[3]/span/table/tbody/tr/th[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectSolarenergywillsupplement1" Key="{88BC8C95-19C9-4F2C-984B-89E04249D593}">
+										<Image FileName="-2016877863" Left="606" Top="464" Right="910" Bottom="483" />
+										<TypeInfo Item0="{90BE81D4-B264-4912-9FEE-D0BAF136EB71}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[4]/td[2]/span/table/tbody/tr/td/table/tbody/tr[10]/td[3]/span/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectExistingenergysupplement14" Key="{6B8FA66D-1B27-4359-B64E-6C0533CD76F1}">
+										<Image FileName="548917706" Left="606" Top="508" Right="910" Bottom="527" />
+										<TypeInfo Item0="{90BE81D4-B264-4912-9FEE-D0BAF136EB71}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[4]/td[2]/span/table/tbody/tr/td/table/tbody/tr[14]/td[3]/span/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[14]/td[3]/span/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNext2" Key="{7887A724-79FB-495D-B3AB-864A7F0EC579}">
+										<Image FileName="2079172448" Left="333" Top="618" Right="394" Bottom="647" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Next&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@onclick=&quot;if(!this.disabled){ addtodisablelist(this); document.getElementById(&apos;buttondiv_NextRT_1016081_5824884_NoNavInGrid&apos;).style.display=&apos;none&apos;; document.getElementById(&apos;loadingdiv_NextRT_1016081_5824884&apos;).style.display=&apos;block&apos;; var posseReturn=PosseProcessRoundTripClicked(&apos;&apos;, 1016081,&apos;NextRT&apos;, &apos;None&apos;,&apos;5824884&apos;, &apos;&apos;, &apos;_self&apos;); this.value = &apos;LinkClicked&apos;; this.disabled=&apos;disabled&apos;} return false;&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[10]/td[3]/span/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[3]/span/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#&apos;)])[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNext2" Key="{47B4BE87-3775-4276-AF58-08BA6C8032EF}">
+										<Image FileName="2079172448" Left="349" Top="624" Right="378" Bottom="641" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".possedetail:nth-child(3) [href=&apos;#&apos;] &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[10]/td[3]/span/div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[3]/span/div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#&apos;)])[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNext3" Key="{0336E310-68CF-4BB6-A393-F474466EFD24}">
+										<Image FileName="1035172414" Left="349" Top="528" Right="410" Bottom="557" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Next&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@onclick=&quot;if(!this.disabled){ addtodisablelist(this); document.getElementById(&apos;buttondiv_NextRT_976569_5824884_NoNavInGrid&apos;).style.display=&apos;none&apos;; document.getElementById(&apos;loadingdiv_NextRT_976569_5824884&apos;).style.display=&apos;block&apos;; var posseReturn=PosseProcessRoundTripClicked(&apos;&apos;, 976569,&apos;NextRT&apos;, &apos;None&apos;,&apos;5824884&apos;, &apos;&apos;, &apos;_self&apos;); this.value = &apos;LinkClicked&apos;; this.disabled=&apos;disabled&apos;} return false;&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[10]/td[3]/span/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[3]/span/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#&apos;)])[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNext4" Key="{FC5ECF4C-EDC0-4968-A763-457155031E0D}">
+										<Image FileName="1393129443" Left="335" Top="449" Right="396" Bottom="478" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Next&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@onclick=&quot;if(!this.disabled){ addtodisablelist(this); document.getElementById(&apos;buttondiv_NextRT_1470408_5824884_NoNavInGrid&apos;).style.display=&apos;none&apos;; document.getElementById(&apos;loadingdiv_NextRT_1470408_5824884&apos;).style.display=&apos;block&apos;; var posseReturn=PosseProcessRoundTripClicked(&apos;&apos;, 1470408,&apos;NextRT&apos;, &apos;None&apos;,&apos;5824884&apos;, &apos;&apos;, &apos;_self&apos;); this.value = &apos;LinkClicked&apos;; this.disabled=&apos;disabled&apos;} return false;&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[7]/td[4]/span/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[4]/span/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#&apos;)])[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNext3" Key="{4BFA4547-6EA5-436D-B521-6014F117E1DA}">
+										<Image FileName="1393129443" Left="351" Top="455" Right="380" Bottom="472" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".possedetail:nth-child(4) [href=&apos;#&apos;] &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[7]/td[4]/span/div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[4]/span/div/a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;#&apos;)])[3]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{C060F85C-C08E-4280-A250-3D22AFBF1B3F}">
+										<Image FileName="1596612306" Left="332" Top="354" Right="718" Bottom="386" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;Please add a parcel where the work will take place.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="tr:nth-child(1) &gt; td:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[6]/td[2]/span/table/tbody/tr/td[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{6092C13A-BEA7-4753-AA4B-B573EBB656A1}">
+										<Image FileName="1596612306" Left="332" Top="386" Right="718" Bottom="418" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;Please enter a mailing address.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="tr:nth-child(2) &gt; td:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[6]/td[2]/span/table/tbody/tr[2]/td[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell3" Key="{C2930603-CE02-42C5-8159-EBDEFA685705}">
+										<Image FileName="1596612306" Left="332" Top="418" Right="718" Bottom="450" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;Please enter a zip / postal code.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="tr:nth-child(3) &gt; td:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[6]/td[2]/span/table/tbody/tr[3]/td[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[3]/td[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell4" Key="{F5DFAEF4-942A-4141-AEE1-1E26E6AA6817}">
+										<Image FileName="1596612306" Left="332" Top="450" Right="718" Bottom="482" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;Please enter a phone number.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="tr:nth-child(4) &gt; td:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[6]/td[2]/span/table/tbody/tr[4]/td[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[4]/td[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell5" Key="{7E8AACC7-E7C7-4216-954D-C413D035E74E}">
+										<Image FileName="1596612306" Left="332" Top="482" Right="718" Bottom="514" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;Please enter a description of the work.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="tr:nth-child(5) &gt; td:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[6]/td[2]/span/table/tbody/tr[5]/td[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[5]/td[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell6" Key="{76097075-1BB0-4949-8D9B-591DD2A568C4}">
+										<Image FileName="1596612306" Left="332" Top="514" Right="718" Bottom="546" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;Please enter number of panels/tubes.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="tr:nth-child(6) &gt; td:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[6]/td[2]/span/table/tbody/tr[6]/td[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[6]/td[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell7" Key="{01096ACB-F497-4944-B68E-D7B0E7A89A7B}">
+										<Image FileName="1596612306" Left="332" Top="546" Right="718" Bottom="578" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;Please enter total area of all panels.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="tr:nth-child(7) &gt; td:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[6]/td[2]/span/table/tbody/tr[7]/td[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[7]/td[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell8" Key="{346A4FAE-EA26-43C1-A23E-AD3F498F2538}">
+										<Image FileName="1596612306" Left="332" Top="578" Right="718" Bottom="610" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[text()=&apos;Please indicate if this install is part of Solar City Program.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="tr:nth-child(8) &gt; td:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[6]/td[2]/span/table/tbody/tr[8]/td[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[8]/td[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell9" Key="{EE2E958B-22B7-4BD9-A91F-45C44C125CCE}">
+										<Image FileName="1596612306" Left="332" Top="610" Right="718" Bottom="642" />
+										<TypeInfo Item0="{59C7832D-9A35-41BE-A411-B203143D08F2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="tr:nth-child(9) &gt; td:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ctl00_cphPaneBand_pnlPaneBand&apos;]/table/tbody/tr[6]/td[2]/span/table/tbody/tr[9]/td[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[9]/td[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//td[contains(.,&apos;A document of type &quot;Site Plan - Solar&quot; (Site Plan - Solar) is required.&apos;)])[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{6C8F0F6B-152B-4108-9A66-D7EB69F461DB}">
+			<Child Name="BrowserWindow" Owner="{9546E742-E10D-44FD-8360-51792E698BFD}" />
+			<Child Name="pageLmsOnlineLogin" Owner="{6F2E16FE-A42F-474E-8900-16B6A96B253E}">
+				<Child Name="formAspnetform" Owner="{974FB356-2593-4ADC-9A29-A449E530E33E}">
+					<Child Name="emailinputTxtemail" Owner="{9E24A0E8-7013-4DA8-9C40-46C4257A91DC}" />
+					<Child Name="passwordboxTxtpassword" Owner="{188AA17F-B2FB-460C-B924-32B5A5A719BB}" />
+				</Child>
+			</Child>
+			<Child Name="pageDefault" Owner="{5528BB78-FD17-4499-84C0-C50B55834BD4}">
+				<Child Name="formAspnetform" Owner="{A557038A-12C8-43F8-B846-7A029DCDE7CC}">
+					<Child Name="linkApplyForAPermit" Owner="{21603B3F-17C7-4D6C-A1C0-FFDE5ECB1C97}" />
+					<Child Name="linkSolarPermit" Owner="{84275743-75CF-44CA-BF98-BF26F1AD1761}" />
+					<Child Name="radiobuttonRackingtype1442225582" Owner="{37DCADAF-9584-4B41-8EB5-E3779AAB26B0}" />
+					<Child Name="selectSolarenergywillsupplement1" Owner="{88BC8C95-19C9-4F2C-984B-89E04249D593}" />
+					<Child Name="selectExistingenergysupplement14" Owner="{6B8FA66D-1B27-4359-B64E-6C0533CD76F1}" />
+					<Child Name="linkNext2" Owner="{7887A724-79FB-495D-B3AB-864A7F0EC579}">
+						<Child Name="textnodeNext2" Owner="{47B4BE87-3775-4276-AF58-08BA6C8032EF}" />
+					</Child>
+					<Child Name="linkNext3" Owner="{0336E310-68CF-4BB6-A393-F474466EFD24}" />
+					<Child Name="linkNext4" Owner="{FC5ECF4C-EDC0-4968-A763-457155031E0D}">
+						<Child Name="textnodeNext3" Owner="{4BFA4547-6EA5-436D-B521-6014F117E1DA}" />
+					</Child>
+					<Child Name="cell" Owner="{C060F85C-C08E-4280-A250-3D22AFBF1B3F}" />
+					<Child Name="cell2" Owner="{6092C13A-BEA7-4753-AA4B-B573EBB656A1}" />
+					<Child Name="cell3" Owner="{C2930603-CE02-42C5-8159-EBDEFA685705}" />
+					<Child Name="cell4" Owner="{F5DFAEF4-942A-4141-AEE1-1E26E6AA6817}" />
+					<Child Name="cell5" Owner="{7E8AACC7-E7C7-4216-954D-C413D035E74E}" />
+					<Child Name="cell6" Owner="{76097075-1BB0-4949-8D9B-591DD2A568C4}" />
+					<Child Name="cell7" Owner="{01096ACB-F497-4944-B68E-D7B0E7A89A7B}" />
+					<Child Name="cell8" Owner="{346A4FAE-EA26-43C1-A23E-AD3F498F2538}" />
+					<Child Name="cell9" Owner="{EE2E958B-22B7-4BD9-A91F-45C44C125CCE}" />
+				</Child>
+				<Child Name="formAspnetform2" Owner="{74F6A987-C589-44BA-9EBE-DB10D6EDBD9A}">
+					<Child Name="selectUsedesignation980441582488" Owner="{7139DA74-BC4C-4BAB-8627-BD2021C3D460}" />
+					<Child Name="selectPrimaryworkscope9804415824" Owner="{6E73D7F9-D28F-4CED-AD70-BF8543A00513}" />
+					<Child Name="linkNext" Owner="{DF4A6870-8D51-45D1-AB1B-F316D85396B0}">
+						<Child Name="textnodeNext" Owner="{1616B1C9-6BC6-4064-A5F6-C53B7CD95B9A}" />
+					</Child>
+					<Child Name="textboxApplicantnamestored102947" Owner="{2389C16D-3A4F-421C-8362-05B3BC3307B7}" />
+					<Child Name="textboxApplicantcitystored102947" Owner="{64B095EF-FC9D-493D-8157-CBDA36CBB261}" />
+					<Child Name="selectApplicantstateprovstored10" Owner="{B280201C-B734-4DB1-9692-64CB738987E5}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

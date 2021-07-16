@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1" key="{EE5B8FB4-0848-4672-8800-10D9D610A09E}" path="Unit1.js" />
+		<child name="SolarPermit_Test" key="{7DA69C75-8E1C-4F4E-9D67-A8F2EDF1C405}" path="SolarPermit_Test.js" />
+		<child name="SolarPermit_Final" key="{6E26C331-B1A4-4C2E-86EA-8491D0D3BF11}" path="SolarPermit_Final.js" />
+	</children>
+</Root>
