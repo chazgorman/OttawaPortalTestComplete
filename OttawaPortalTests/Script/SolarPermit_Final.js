@@ -1,6 +1,6 @@
 ﻿function Test1()
 {
-  Browsers.Item(btEdge).Navigate("https://plc.halifax.ca/hfxprod/pub/lms/Login.aspx");
+  Browsers.Item(btEdge).Navigate("https://lms-sgt-nonprod.ottawa.ca/qa/pub/lms");
   let browser = Aliases.browser;
   browser.BrowserWindow.Maximize();
   let emailInput = browser.pageLmsOnlineLogin.formAspnetform;

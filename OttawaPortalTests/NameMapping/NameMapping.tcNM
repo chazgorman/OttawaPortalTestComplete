@@ -30,6 +30,20 @@
 										<Value Value="0" Type="0" />
 									</Property>
 								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{625A78AC-0273-472D-B560-F217F6A1686B}">
+										<Image FileName="1494694876" Left="8" Top="79" Right="2568" Bottom="1408" />
+										<TypeInfo Item0="{EA96F07B-02C0-4592-9CA6-0DB4A771FE14}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
 							</Child>
 							<Child Name="pageLmsOnlineLogin" Key="{6F2E16FE-A42F-474E-8900-16B6A96B253E}">
 								<Image FileName="-1092395501" Left="48" Top="71" Right="1440" Bottom="876" />
@@ -656,6 +670,18 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{D1ABB3C3-1362-49C5-ABBA-6343D7305CA4}">
+								<Image FileName="-1652958968" Left="0" Top="0" Right="378" Bottom="277" />
+								<TypeInfo Item0="{0010FD72-644C-40F9-BAB1-78A561594396}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save password" />
+									</Property>
+								</Properties>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -664,7 +690,9 @@
 	</Nodes>
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Child Name="browser" Owner="{6C8F0F6B-152B-4108-9A66-D7EB69F461DB}">
-			<Child Name="BrowserWindow" Owner="{9546E742-E10D-44FD-8360-51792E698BFD}" />
+			<Child Name="BrowserWindow" Owner="{9546E742-E10D-44FD-8360-51792E698BFD}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{625A78AC-0273-472D-B560-F217F6A1686B}" />
+			</Child>
 			<Child Name="pageLmsOnlineLogin" Owner="{6F2E16FE-A42F-474E-8900-16B6A96B253E}">
 				<Child Name="formAspnetform" Owner="{974FB356-2593-4ADC-9A29-A449E530E33E}">
 					<Child Name="emailinputTxtemail" Owner="{9E24A0E8-7013-4DA8-9C40-46C4257A91DC}" />
@@ -706,6 +734,7 @@
 					<Child Name="selectApplicantstateprovstored10" Owner="{B280201C-B734-4DB1-9692-64CB738987E5}" />
 				</Child>
 			</Child>
+			<Child Name="wndChrome_WidgetWin_1" Owner="{D1ABB3C3-1362-49C5-ABBA-6343D7305CA4}" />
 		</Child>
 	</LogicalNodes>
 </Root>
