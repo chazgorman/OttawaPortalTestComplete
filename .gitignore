@@ -10,3 +10,4 @@ Log/
 
 # Ignore backup files
 *.bak
+/.vs

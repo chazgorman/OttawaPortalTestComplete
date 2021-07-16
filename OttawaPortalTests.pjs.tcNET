@@ -22,7 +22,7 @@
 		<Node name="data">
 			<Node name="cmtd302">
 				<Node name="{d63362ea-4e86-4ec5-a6ec-fbc4395321f4}">
-					<Prp name="relpath" type="S" value="[CMTD302]\HalifaxPortalTests.pjs.tcLS"/>
+					<Prp name="relpath" type="S" value="[CMTD302]\OttawaPortalTests.pjs.tcLS"/>
 				</Node>
 				<Prp name="network mode answer" type="B" value="-1"/>
 				<Prp name="network mode value" type="B" value="-1"/>
